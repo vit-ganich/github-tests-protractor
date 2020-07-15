@@ -1,0 +1,16 @@
+{
+  "name": "github-tests-protractor",
+  "version": "1.0.0",
+  "description": "Test task for UI test of the github",
+  "scripts": {
+    "test": "protractor protractor.conf.js",
+    "webdriverupdate": "webdriver-manager update",
+    "webdriverstart": "webdriver-manager start",
+    "webdriver": "npm run webdriverupdate && npm run webdriverstart"
+  },
+  "author": "Vitali Hanich",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "protractor-fail-fast": "^3.1.0"
+  }
+}
