@@ -12,5 +12,15 @@
   "license": "UNLICENSED",
   "dependencies": {
     "protractor-fail-fast": "^3.1.0"
-  }
+  },
+  "main": "protractor.conf.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vit-ganich/github-tests-protractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vit-ganich/github-tests-protractor/issues"
+  },
+  "homepage": "https://github.com/vit-ganich/github-tests-protractor#readme"
 }
